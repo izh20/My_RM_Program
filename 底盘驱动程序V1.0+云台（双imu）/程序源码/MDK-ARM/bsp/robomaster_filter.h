@@ -56,7 +56,7 @@ float LPButterworth(float curr_input,Butter_BufferData *Buffer,Butter_Parameter 
 float MPU_LPF(float curr_inputer,
                Butter_BufferData *Buffer,
                Butter_Parameter *Parameter);
-float set_lpf_alpha(int16_t cutoff_frequency, float time_step);
+//float set_lpf_alpha(int16_t cutoff_frequency, float time_step);
 void Set_Cutoff_Frequency(float sample_frequent, float cutoff_frequent,Butter_Parameter *LPF);
 void Butterworth_Parameter_Init(void);
 #endif
